@@ -67,7 +67,9 @@ const typeDefs = gql`
     content: String
     "The module's video url, for video-based modules"
     videoUrl: String
+    "The Module's track"
+    track: Track!
   }
-`;
+`
 
 module.exports = typeDefs;
